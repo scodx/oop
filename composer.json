@@ -1,0 +1,22 @@
+{
+    "name": "scodx/oop",
+    "description": "Simple OOP example explained as animals",
+    "authors": [
+        {
+            "name": "Oscar Sanchez",
+            "email": "oscar.exe@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "scodx\\": "src/"
+        }
+    }
+}
